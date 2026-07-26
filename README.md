@@ -8,7 +8,7 @@ Static GitHub Pages-ready website for Neuronwise Labs.
 - `styles.css` - shared styling
 - `script.js` - lightweight client-side behavior
 - `products/learnvanta.html` - smart e-learning product page
-- `products/talkena.html` - multilingual AI voice agent product page
+- `products/orateus.html` - Orateus multilingual AI voice agent product page
 
 ## Local preview
 
