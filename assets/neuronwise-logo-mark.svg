@@ -1,0 +1,44 @@
+<svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neuronwiseGradient" x1="15" y1="18" x2="76" y2="82" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8EF6FF"/>
+      <stop offset="0.52" stop-color="#55C9D8"/>
+      <stop offset="1" stop-color="#1F8796"/>
+    </linearGradient>
+  </defs>
+  <g stroke="url(#neuronwiseGradient)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M25 37L34 23L52 20L68 28L76 44L72 60L59 69L43 70L30 62L22 49L25 37Z"/>
+    <path d="M43 70L50 79L58 76L59 69"/>
+    <path d="M22 49L30 45L44 45L56 42L68 45L76 44"/>
+    <path d="M25 37L37 37L45 30L57 29L68 28"/>
+    <path d="M30 62L37 54L44 45L49 58L59 69"/>
+    <path d="M34 23L39 34L45 30L52 20"/>
+    <path d="M39 34L52 37L57 29"/>
+    <path d="M52 37L56 42L68 45L63 55L49 58L44 45"/>
+    <path d="M30 45L37 54L49 58"/>
+    <path d="M37 37L30 45"/>
+  </g>
+  <g fill="url(#neuronwiseGradient)">
+    <circle cx="25" cy="37" r="3"/>
+    <circle cx="34" cy="23" r="3"/>
+    <circle cx="52" cy="20" r="3"/>
+    <circle cx="68" cy="28" r="3"/>
+    <circle cx="76" cy="44" r="3"/>
+    <circle cx="72" cy="60" r="3"/>
+    <circle cx="59" cy="69" r="3"/>
+    <circle cx="50" cy="79" r="3"/>
+    <circle cx="43" cy="70" r="3"/>
+    <circle cx="30" cy="62" r="3"/>
+    <circle cx="22" cy="49" r="3"/>
+    <circle cx="30" cy="45" r="2.6"/>
+    <circle cx="37" cy="37" r="2.6"/>
+    <circle cx="45" cy="30" r="2.6"/>
+    <circle cx="57" cy="29" r="2.6"/>
+    <circle cx="56" cy="42" r="2.6"/>
+    <circle cx="63" cy="55" r="2.6"/>
+    <circle cx="49" cy="58" r="2.6"/>
+    <circle cx="44" cy="45" r="2.6"/>
+    <circle cx="37" cy="54" r="2.6"/>
+    <circle cx="58" cy="76" r="2.6"/>
+  </g>
+</svg>
