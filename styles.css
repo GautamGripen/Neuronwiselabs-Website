@@ -4,6 +4,9 @@
   --surface-strong: #ffffff;
   --text: #16211d;
   --muted: #506059;
+  --text-on-dark: #f5f1e7;
+  --muted-on-dark: rgba(235, 240, 236, 0.82);
+  --line-on-dark: rgba(233, 239, 235, 0.16);
   --line: rgba(22, 33, 29, 0.12);
   --primary: #c95c2b;
   --primary-deep: #9f4018;
@@ -26,7 +29,7 @@ html {
 
 body {
   margin: 0;
-  color: var(--text);
+  color: var(--text-on-dark);
   font-family: "Manrope", sans-serif;
   background:
     linear-gradient(180deg, rgba(6, 18, 21, 0.72), rgba(12, 28, 31, 0.48)),
@@ -77,7 +80,7 @@ body::after {
   gap: 24px;
   margin-top: 18px;
   padding: 14px 18px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 999px;
   background: rgba(255, 253, 248, 0.84);
   backdrop-filter: blur(14px);
@@ -201,7 +204,7 @@ h3 {
 .contact-card p,
 .hero-card strong,
 .mini-card strong {
-  color: var(--muted);
+  color: var(--muted-on-dark);
   line-height: 1.75;
 }
 
@@ -209,6 +212,28 @@ h3 {
   max-width: 62ch;
   margin: 24px 0 0;
   font-size: 1.08rem;
+  color: rgba(244, 243, 238, 0.88);
+}
+
+.hero-copy h1,
+.hero-copy .eyebrow {
+  text-shadow: 0 10px 32px rgba(0, 0, 0, 0.28);
+}
+
+.hero-copy h1 {
+  color: #f8f4ea;
+}
+
+.hero-copy .eyebrow {
+  color: #52c8d5;
+}
+
+.section-heading h2 {
+  color: var(--text-on-dark);
+}
+
+.section-heading .eyebrow {
+  color: #7dd6df;
 }
 
 .hero-actions,
@@ -246,9 +271,10 @@ h3 {
 
 .secondary,
 .tertiary {
-  border: 1px solid var(--line);
-  color: var(--text);
-  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid var(--line-on-dark);
+  color: var(--text-on-dark);
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
 }
 
 .hero-panel,
@@ -262,6 +288,7 @@ h3 {
   background: rgba(255, 255, 255, 0.76);
   backdrop-filter: blur(10px);
   box-shadow: var(--shadow);
+  color: var(--text);
 }
 
 .hero-panel {
@@ -285,6 +312,35 @@ h3 {
   font-weight: 800;
   letter-spacing: 0.12em;
   text-transform: uppercase;
+}
+
+.hero-panel strong,
+.hero-panel p,
+.hero-panel h3,
+.intro-band p,
+.service-card h3,
+.service-card p,
+.product-card h3,
+.product-card p,
+.industry-card h3,
+.industry-card p,
+.timeline article h3,
+.timeline article p,
+.contact-card h2,
+.contact-card p,
+.product-hero-card h1,
+.detail-card h2,
+.feature-list h3,
+.detail-list h3 {
+  color: var(--text);
+}
+
+.product-card ul,
+.feature-list p,
+.detail-list p,
+.product-hero-card p,
+.detail-card p {
+  color: var(--muted);
 }
 
 .hero-grid {
@@ -435,8 +491,9 @@ h3 {
   padding: 28px;
   border: 1px solid var(--line);
   border-radius: 26px;
-  background: var(--surface);
+  background: rgba(255, 255, 255, 0.82);
   box-shadow: var(--shadow);
+  color: var(--text);
 }
 
 .product-hero-card p {
