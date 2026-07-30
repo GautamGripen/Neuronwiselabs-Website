@@ -422,7 +422,14 @@ h3 {
 
 .service-card:nth-child(4) {
   grid-column: span 3;
-  background: linear-gradient(135deg, rgba(15, 118, 110, 0.08), rgba(255, 255, 255, 0.72));
+  background: linear-gradient(135deg, rgba(233, 244, 241, 0.96), rgba(255, 248, 239, 0.94));
+  border-color: rgba(22, 33, 29, 0.1);
+  box-shadow: 0 22px 48px rgba(8, 20, 24, 0.18);
+}
+
+.service-card:nth-child(4) h3,
+.service-card:nth-child(4) p {
+  color: #16211d;
 }
 
 .product-card ul {
