@@ -130,6 +130,7 @@ body::after {
   display: flex;
   flex-direction: column;
   line-height: 1.02;
+  max-width: 300px;
 }
 
 .brand-text strong {
@@ -140,7 +141,8 @@ body::after {
 .brand-text small {
   color: var(--muted);
   font-size: 0.84rem;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
+  line-height: 1.25;
 }
 
 .nav {
